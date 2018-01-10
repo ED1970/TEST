@@ -25,7 +25,7 @@ public class Test extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("vanuit servlet").append(request.getContextPath());
+		response.getWriter().append("vanuit servlet3").append(request.getContextPath());
 	}
 
 	/**
